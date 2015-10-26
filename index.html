@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script src="script.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title>Food tracker</title>
+</head>
+<body>
+<div id="input">
+<form>
+    <fieldset>
+        <legend>Insert food:</legend>
+        <table>
+           <tr>
+               <td>Food:</td>
+                <td>Purchase date:</td>
+                <td>Expiration date:</td>
+               <td>Description:</td>
+           </tr>
+            <tr>
+                <td><input type="text" name="foodname" id="food" value=""></td>
+                <td><input type="date" name="purchaseDate" id="pd"></td>
+                <td><input type="date" name="expiraDate" id="exDate"></td>
+                <td><input type="text" name="Descript" id="Description"></td>
+
+                <td><button type="button" onclick="enter()">Submit</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</div>
+<div id="user">
+<table border="1" id="tablefood">
+    <tr>
+        <td>Food</td>
+    <td>Purchase Date</td>
+    <td>Expiration Date</td>
+        <td>Description</td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>
