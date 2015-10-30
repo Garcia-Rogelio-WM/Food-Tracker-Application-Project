@@ -1,3 +1,10 @@
+body{
+background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+}
 #tablefood{
-
+    table-layout: fixed;
+}
+#tablefood td{
+    word-wrap: break-word;
+    max-width: 200px;
 }

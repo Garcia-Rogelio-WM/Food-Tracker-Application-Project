@@ -8,25 +8,28 @@
     <meta charset="UTF-8">
     <title>Food tracker</title>
 </head>
+
 <body>
+<div id="all">
 <div id="input">
 <form>
     <fieldset>
-        <legend>Insert food:</legend>
+        <legend>Food Tracker:</legend>
         <table>
            <tr>
                <td>Food:</td>
                 <td>Purchase date:</td>
                 <td>Expiration date:</td>
                <td>Description:</td>
+               <td><p>Version 1.0.1</p></td>
            </tr>
             <tr>
-                <td><input type="text" name="foodname" id="food" value=""></td>
-                <td><input type="date" name="purchaseDate" id="pd"></td>
-                <td><input type="date" name="expiraDate" id="exDate"></td>
-                <td><input type="text" name="Descript" id="Description"></td>
+                <td><input type="text" name="foodname" id="food" value="" style="background-color: transparent" ></td>
+                <td><input type="date" name="purchaseDate" id="pd" style="background-color: transparent"></td>
+                <td><input type="date" name="expiraDate" id="exDate" style="background-color: transparent"></td>
+                <td><input type="text" name="Descript" id="Description" style="background-color: transparent"></td>
 
-                <td><button type="button" onclick="enter()">Submit</button></td>
+                <td><button type="button" onclick="enter()" style="background-color:#0bbaaf">Submit</button></td>
             </tr>
         </table>
     </fieldset>
@@ -41,7 +44,8 @@
         <td>Description</td>
     </tr>
 </table>
-</div>
 
+</div>
+</div>
 </body>
 </html>
