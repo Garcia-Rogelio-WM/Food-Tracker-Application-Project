@@ -19,7 +19,7 @@ function enter(){
     cell3.innerHTML = eDate;
     cell4.innerHTML = dis;
 
-    if (eDate > perDate){
+    if (eDate < perDate){
         row.style.backgroundColor = "red";
     }
     else {
